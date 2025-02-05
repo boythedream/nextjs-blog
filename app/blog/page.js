@@ -25,6 +25,7 @@ const Blog = () => {
                     >
                         <div className="relative w-full h-48">
                             <Image
+                            fill
                                 src="/python.webp"  // Replace with actual image URL
                                 alt={blog.title}
                                 className="w-full h-full object-cover"
