@@ -94,7 +94,6 @@ export default function Navbar() {
                   <Link href="/" className="hover:text-blue-600 block">Home</Link>
                   <Link href="/blog" className="hover:text-blue-600 block">Blog</Link>
                   <Link href="/about" className="hover:text-blue-600 block">About</Link>
-                  <Link href="/services" className="hover:text-blue-600 block">Services</Link>
                   <Link href="/contact" className="hover:text-blue-600 block">Contact</Link>
                   <div className="flex flex-col gap-2 mt-4">
                     {!isSignedIn ? (
@@ -112,7 +111,7 @@ export default function Navbar() {
             <Link href="/" className="hover:text-red-600 px-3 py-2 rounded-md text-sm font-medium">Home</Link>
             <Link href="/blog" className="hover:text-red-600 px-3 py-2 rounded-md text-sm font-medium">Blog</Link>
             <Link href="/about" className="hover:text-red-400 px-3 py-2 rounded-md text-sm font-medium">About</Link>
-            <Link href="/services" className="hover:text-red-600 px-3 py-2 rounded-md text-sm font-medium">Services</Link>
+           
             <Link href="/contact" className="hover:text-red-600 px-3 py-2 rounded-md text-sm font-medium">Contact</Link>
             <div className="flex gap-2 items-center">
               {!isSignedIn ? (
