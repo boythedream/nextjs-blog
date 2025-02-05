@@ -9,6 +9,7 @@ import { unified } from 'unified';
 import rehypePrettyCode from "rehype-pretty-code";
 import { transformerCopyButton } from '@rehype-pretty/transformers';
 
+export const dynamic = 'force-dynamic';
 // Blog Page component
 export default async function Page({ params }) {
     const filepath = `content/${params.slug}.md`;

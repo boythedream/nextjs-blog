@@ -5,6 +5,7 @@ import fs from "fs";
 import matter from 'gray-matter';
 import Image from 'next/image';
 
+export const dynamic = 'force-dynamic';
 const dirContent = fs.readdirSync("content", "utf-8");
 const blogs = dirContent.map((file) => {
     const fileContent = fs.readFileSync(`content/${file}`, "utf-8");
